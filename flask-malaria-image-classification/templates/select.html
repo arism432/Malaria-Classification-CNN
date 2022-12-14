@@ -1,0 +1,198 @@
+{% extends 'base.html' %}
+{% block content %}
+    <!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+			<h4 class="modal-title" id="exampleModalLabel">Image Gallery</h5>
+			<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+                <table>
+                    <tr>
+                        <th>
+                            <h4>Parasitized</h4>
+                        </th>
+                        <th></th>
+                        <th>
+                            <h4>Uninfected</h4>
+                        </th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <!---Parasitized---->
+                        <td>
+                            <label >
+                                <input type="radio" name="images" checked >
+                                <img class="img-gallery" src="static\gallery\parasitized\C33P1thinF_IMG_20150619_114756a_cell_181.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\parasitized\C33P1thinF_IMG_20150619_115808a_cell_206.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\parasitized\C33P1thinF_IMG_20150619_120645a_cell_215.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\parasitized\C33P1thinF_IMG_20150619_121229a_cell_179.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\parasitized\C33P1thinF_IMG_20150619_121300a_cell_156.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                        </td>
+                        <td>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\parasitized\C33P1thinF_IMG_20150619_121503a_cell_159.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\parasitized\C37BP2_thinF_IMG_20150620_133111a_cell_86.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\parasitized\C39P4thinF_original_IMG_20150622_105102_cell_88.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\parasitized\C39P4thinF_original_IMG_20150622_105102_cell_93.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\parasitized\C39P4thinF_original_IMG_20150622_105102_cell_97.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                        </td>
+                        <!--Uninfected-->
+                        <td>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\uninfected\C1_thinF_IMG_20150604_104722_cell_211.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\uninfected\C1_thinF_IMG_20150604_104919_cell_86.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\uninfected\C1_thinF_IMG_20150604_104919_cell_157.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\uninfected\C1_thinF_IMG_20150604_104919_cell_163.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\uninfected\C1_thinF_IMG_20150604_104919_cell_178.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                        </td>
+                        <td>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\uninfected\C1_thinF_IMG_20150604_104919_cell_224.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\uninfected\C1_thinF_IMG_20150604_104919_cell_240.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\uninfected\C1_thinF_IMG_20150604_104942_cell_102.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\uninfected\C1_thinF_IMG_20150604_104942_cell_168.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                            <label >
+                                <input type="radio" name="images" >
+                                <img class="img-gallery" src="static\gallery\uninfected\C1_thinF_IMG_20150604_105100_cell_213.png" alt="" style="padding : 5px; margin : 5px ">
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-primary">Input</button>
+			</div>
+		</div>
+		</div>
+	</div>
+    <style>
+        input[type="radio"]:checked  {
+            background-color : #aaa}
+    </style>
+
+    <!-- page-title -->
+    <section class="page-title centred" style="background-image: url(../static/main/images/background/page-title.jpg);">
+        <div class="container">
+            <div class="content-box" style="background-color: #1f316d;">
+                <div class="title">Malaria Blood Cell Image Parasite Detecion</div>
+                <ul class="bread-crumb">
+                    <li>Run machine learning model in production</li>
+                    <li>Malaria Classification</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- page-title end -->
+
+    <!-- form-section -->
+    <section class="contact-section" style="padding-top:50px;" id="predict">
+        <div class="container">
+            <div class="title-box centred" >
+                <div class="sec-title">Upload Malaria Blood Cell Images</div>
+            </div>
+            <form class="login100-form validate-form" action="/predict" method=post enctype=multipart/form-data>
+                <div class="row" style=" width: 35%; margin: auto; padding: 15px;" >
+                    <div class="column" >
+                        <div class="form-check form-check-inline">
+                            <p style="font-weight: bold; color: black;">Select Model : </p>
+                        </div>   
+                    </div>
+                    <div class="column" >
+                        <div class="form-check form-check-inline"> 
+                            <select name="select_model" id="selected_model">
+                                <option value='Native CNN' >Native CNN  </option>
+                                <option value='Transfer Learning'   >Transfer Learning    </option>
+                            </select>
+                        </div>   
+                    </div>
+                </div>
+                <img id="image-preview" alt="image preview" src="#" style="width: 35%;"/>
+                <div class="container-login100-form-btn">
+                    <div class="wrap-input100 validate-input" data-validate="Image file is required" id="input">
+                        <input class="input100" id="image-source" name="file" onchange="previewImage();" type="file"
+                            alt="Input Image" accept="image/jpeg,image/jpg,image/png">
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+                            <i class="fa fa-file" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="container-login100-form-btn">
+                    <button class="login100-form-btn" type="submit" name="action" value="predict">
+                        Predict
+                    </button>
+                </div>
+                <div class="container-login100-form-btn">
+                    <button class="login100-form-btn" type="submit" name="action" value="compare">
+                        Compare Model
+                    </button>
+                </div>
+                <div class="container-login100-form-btn">
+                    <button class="login100-form-btn" type="button" data-toggle="modal" data-target="#exampleModal" >
+                        Image Gallery
+                    </button>
+                </div>
+            </form>
+            
+        </div>
+    </section>
+   
+
+    <!-- form-section end -->
+
+    {% endblock %}
